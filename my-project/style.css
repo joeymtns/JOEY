@@ -1,0 +1,115 @@
+:root {
+  --dark-bg: #2F3E46;
+  --header-bg: #52796F;
+  --accent: #52796F;
+  --highlight: #CAD2C5;
+  --card: #354F52;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--dark-bg);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: var(--header-bg);
+}
+
+.title {
+  color: var(--highlight);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  color: var(--highlight);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.highlight {
+  background: var(--highlight);
+  color: var(--dark-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 0.25em;
+}
+
+.subtext {
+  margin-top: 1rem;
+  color: #e2e8f0;
+  max-width: 600px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--highlight);
+  color: var(--dark-bg);
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.feature-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.feature {
+  flex: 1 1 200px;
+  background: var(--accent);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #f1f5f9;
+  font-size: 0.95rem;
+}
+
+.feature h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: var(--highlight);
+  font-weight: 700;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+}
